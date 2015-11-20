@@ -7,6 +7,7 @@ proposed by GVR himself:
 https://mail.python.org/pipermail/python-dev/2008-January/076194.html
 I'm providing this version as a slightly safer alternative.
 It has various extra checks that avoid issues.
+
 Pros:
 * Promotes functional cohesion; 
     Cross-class inter-dependant code can stay together,
@@ -21,11 +22,13 @@ Pros:
 * Provides a good way to extend classes from external libraries.
     This can also be a nice benefit, as sometimes it's not 
     possible to use your subclass inside an external library.
+
 Cons:
 * Methods don't appear to metaclasses at class instantiation time.
     This shouldn't be a problem, as the metaclasses shouldn't 
     be concerned with methods added in this way anyway.
 * Surprises developers who expect all methods to be inside a class definition.
+
 Notes:
 Monkey-patching is expressly disallowed. 
 This means you can't replace an attribute on an existing class.
