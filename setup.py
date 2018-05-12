@@ -4,10 +4,10 @@ from distutils.core import setup
 
 setup(
     name='class_extension',
-    version='1.0.1',
+    version='1.0.2',
     description='Allows classes to be extended',
-    author='Mike Amy',
-    author_email='cocoade@googlemail.com',
+    author='Michael Amy',
+    author_email='mikeamycoder@gmail.com',
     url='https://github.com/MikeAmy/class_extension',
     packages=['class_extension']
 )
