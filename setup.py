@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='class_extension',
-    version='1.0.2',
+    version='1.0.4',
     description='Allows classes to be extended',
     long_description=open('README.md').read(),
     author='Michael Amy',

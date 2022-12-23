@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "class_extension"
+version = "1.0.4"
+authors = [
+  { name="Michael Amy", email="mikeamycoder@gmail.com" },
+]
+description = "Allows classes to be extended"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MikeAmy/class_extension"
+"Bug Tracker" = "https://github.com/MikeAmy/class_extension/issues"
